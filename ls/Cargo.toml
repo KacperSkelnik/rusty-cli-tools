@@ -1,0 +1,8 @@
+[package]
+name = "ls"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+
+[dependencies]
+thiserror.workspace = true

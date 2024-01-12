@@ -1,0 +1,10 @@
+[workspace]
+members = ["echo", "cat", "ls", "grep"]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2018"
+authors = ["Kacper Skelnik"]
+
+[workspace.dependencies]
+thiserror = "1.0.56"
